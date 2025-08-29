@@ -1,0 +1,36 @@
+{
+  "models": {
+    "text_generation": [
+      "deepseek/deepseek-r1:free",
+      "qwen/qwen-2.5-72b-instruct:free",
+      "nousresearch/deephermes-3-llama-3-8b-preview:free",
+      "tencent/hunyuan-a13b-instruct:free",
+      "deepseek/deepseek-r1-0528-qwen3-8b:free"
+    ],
+    "image_generation": [
+      "google/gemini-2.5-flash-image-preview:free",
+      "qwen/qwen2.5-vl-72b-instruct:free",
+      "qwen/qwen2.5-vl-32b-instruct:free",
+      "agentica-org/deepcoder-14b-preview:free",
+      "qwen/qwen3-coder:free"
+    ]
+  },
+  "affiliate": {
+    "min_gravity": 20
+  },
+  "scheduler": {
+    "interval_hours": 2
+  },
+  "social": {
+    "min_time_between_tweets": 3600,
+    "max_time_between_tweets": 10800
+  },
+  "optimizer": {
+    "analysis_period_days": 7,
+    "min_data_points": 10,
+    "blacklist_threshold": 0.1
+  },
+  "content": {
+    "topics": ["technologie", "finance", "santé", "développement personnel"]
+  }
+}
